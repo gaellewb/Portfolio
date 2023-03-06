@@ -1,0 +1,25 @@
+
+h1 {
+    font-family: 'Courgette', cursive;
+}
+
+/* .affichage {
+    height: 100vh;
+} */
+
+.bg-image {
+    background: url(assets/img/drone4.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;  
+    /* linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)),  */
+}
+
+
+/* ------------------------------------- NAVBAR -------------------------------- */
+
+/* .navSocial {
+    flex-direction: column;
+    color: rgb(191, 206, 248);
+} */
+
