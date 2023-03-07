@@ -1,10 +1,14 @@
 
-h1 {
+h1, .monlogo {
     font-family: 'Courgette', cursive;
 }
 
-/* .affichage {
-    height: 100vh;
+.affichage {
+    background-color: rgb(182, 170, 187);
+}
+
+/* .nav-link a:hover {
+    border-bottom-color: #0d6efd;
 } */
 
 .bg-image {
@@ -15,6 +19,10 @@ h1 {
     /* linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)),  */
 }
 
+/* .about {
+    align-items: center;
+} */
+
 
 /* ------------------------------------- NAVBAR -------------------------------- */
 
@@ -22,4 +30,24 @@ h1 {
     flex-direction: column;
     color: rgb(191, 206, 248);
 } */
+ 
 
+
+.listdrop {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-toggle:hover {
+    border-left-color: #0d6efd;
+}
+
+textarea {
+    resize: none;
+}
+
+/* @media screen and (min-width:992px) {
+    .border-end{
+        border-right: none;
+    }
+} */
