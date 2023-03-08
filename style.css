@@ -45,6 +45,17 @@ textarea {
     list-style-type: none;
 }
 
+@media screen and (max-width:768px) {
+    .slideBar  {
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .social  {
+        display: none;
+    }
+}
 
 /* linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)),  */
 
@@ -56,11 +67,7 @@ textarea {
     position:absolutefixed-bottom
 } */
 
-/* @media screen and (min-width:992px) {
-    .border-end{
-        border-right: none;
-    }
-} */
+
 
 /* .nav-link a:hover {
     border-bottom-color: #0d6efd;
