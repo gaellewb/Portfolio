@@ -41,6 +41,9 @@ textarea {
     color: #000;
 }
 
+.listSocial {
+    list-style-type: none;
+}
 
 
 /* linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)),  */
@@ -50,8 +53,7 @@ textarea {
 } */
 
 /* .navSocial {
-    flex-direction: column;
-    color: rgb(191, 206, 248);
+    position:absolutefixed-bottom
 } */
 
 /* @media screen and (min-width:992px) {
