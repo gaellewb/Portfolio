@@ -1,4 +1,3 @@
-
 h1, .monlogo {
     font-family: 'Courgette', cursive;
 }
@@ -7,47 +6,60 @@ h1, .monlogo {
     background-color: rgb(182, 170, 187);
 }
 
-/* .nav-link a:hover {
-    border-bottom-color: #0d6efd;
-} */
-
 .bg-image {
     background: url(assets/img/drone4.png) no-repeat;
     background-position: center;
     background-size: cover;
     height: 100vh;  
-    /* linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)),  */
 }
-
-/* .about {
-    align-items: center;
-} */
-
-
-/* ------------------------------------- NAVBAR -------------------------------- */
-
-/* .navSocial {
-    flex-direction: column;
-    color: rgb(191, 206, 248);
-} */
- 
-
 
 .listdrop {
     display: flex;
     flex-direction: column;
 }
 
+.myEmail:hover, i:hover, .nav-link:hover, .myTel:hover {
+    color: rgb(152, 101, 174);
+}
+
 .dropdown-toggle:hover {
     border-left-color: #0d6efd;
+}
+
+/* --------------------------------- CONTACT -------------------------------- */
+
+.asterisque {
+    color: rgb(194, 40, 53);
 }
 
 textarea {
     resize: none;
 }
 
+.myEmail, .myTel {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+/* linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)),  */
+
+/* .about {
+    align-items: center;
+} */
+
+/* .navSocial {
+    flex-direction: column;
+    color: rgb(191, 206, 248);
+} */
+
 /* @media screen and (min-width:992px) {
     .border-end{
         border-right: none;
     }
+} */
+
+/* .nav-link a:hover {
+    border-bottom-color: #0d6efd;
 } */
