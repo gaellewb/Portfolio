@@ -45,6 +45,14 @@ textarea {
     list-style-type: none;
 }
 
+/* .fixed-bottom {
+    z-index: auto;
+} */
+
+/* .gene {
+    z-index: 1;
+} */
+
 @media screen and (max-width:768px) {
     .slideBar  {
         display: none;
