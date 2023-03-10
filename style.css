@@ -24,6 +24,8 @@ h1, .monlogo {
 
 .dropdown-toggle:hover {
     border-left-color: #0d6efd;
+    border-right-color: #0d6efd;
+
 }
 
 /* --------------------------------- CONTACT -------------------------------- */
@@ -45,32 +47,31 @@ textarea {
     list-style-type: none;
 }
 
-/* .fixed-bottom {
-    z-index: auto;
-} */
-
-/* .gene {
-    z-index: 1;
-} */
+@media screen and (min-width:768px) {
+    .social  {
+        display: none;
+        }
+}
 
 @media screen and (max-width:768px) {
     .slideBar  {
         display: none;
     }
+
+    /* .border-end {
+        border: none;
+    } */
 }
 
-@media screen and (min-width:768px) {
-    .social  {
-        display: none;
-    }
-}
+/* @media screen and (max-width:992px) {
+    .border-end{
+        border-right: none;
+    } */
 
 
 /* .navSocial {
     position:absolutefixed-bottom
 } */
-
-
 
 /* .nav-link a:hover {
     border-bottom-color: #0d6efd;
