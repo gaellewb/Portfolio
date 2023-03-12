@@ -25,10 +25,7 @@ h1, .monlogo {
 .dropdown-toggle:hover {
     border-left-color: #0d6efd;
     border-right-color: #0d6efd;
-
 }
-
-/* --------------------------------- CONTACT -------------------------------- */
 
 .asterisque {
     color: rgb(194, 40, 53);
@@ -43,31 +40,40 @@ textarea {
     color: #000;
 }
 
-.listSocial {
-    list-style-type: none;
-}
-
-@media screen and (min-width:768px) {
-    .social  {
-        display: none;
-        }
+.logoSocial:hover {
+    background-color: rgb(152, 101, 174);
 }
 
 @media screen and (max-width:768px) {
-    .slideBar  {
+    /* .slideBar  {
         display: none;
-    }
-
-    /* .border-end {
-        border: none;
     } */
+    .dropdown-toggle:hover {
+        border-color: #fff;
+    }
 }
+
+/* Pour la SLIDEBAR qui ne fonctionne pas encore
+@media screen and (min-width:768px) {
+    .social, .separationSocial {
+        display: none;
+        }
+} */
+
+/* @media screen and(max-width:992px) {
+    .separation {
+        visibility: hidden;
+    }
+} */
 
 /* @media screen and (max-width:992px) {
     .border-end{
         border-right: none;
     } */
-
+    
+    /* .border-end {
+        border: none;
+    } */
 
 /* .navSocial {
     position:absolutefixed-bottom

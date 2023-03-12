@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulaire de contact de l'Afpa.">
+    <meta name="keywords" content="Afpa, formation, développeur Web, formation gratuite, demandeur d'emploi, contact">
+    <title>Afpa - Contactez-nous</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/Images/favicon.ico">
+</head>
+
+<body>
+
+    <header class="topbar">
+        <img src="img/Images/logoVertAfpa.png" alt="Logo Afpa">
+        <div class="topnav">
+            <nav class="navbar">
+                <ul>
+                    <li class="lienNav"><a href="index.html" class="nav">Accueil</a></li>
+                    <li class="lienNav"><a href="formation.html" class="nav">Formation Développeur Web</a></li>
+                    <li class="lienNav"><a href="temoignages.html" class="nav">Témoignages</a></li>
+                    <li class="lienNav"><a href="references.html" class="nav">Références</a></li>
+                    <li><a href="contact.html" class="nav active">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="connectSearch">
+                <a href="#" class="btnConnect">Connexion</a>
+                <label for="searchbar">Rechercher</label>
+                <input type="search" id="searchbar" name="search" placeholder="Rechercher">
+
+            </div>
+        </div>
+    </header>
+
+        <h1>Contactez-nous</h1>
+    <main>
+        
+        <form method="post">
+            <div>
+                <label for="name">* Nom :</label>
+                <input type="text" name="name" id="name" required>  
+            </div>
+            <div>
+                <label for="firstname">* Prénom :</label>
+                <input type="text" name="firstname" id="firstname" required>  
+            </div>
+            <div>
+                <label for="email">* Adresse mail :</label>
+                <input type="email" name="email" id="email" required placeholder="adresse@email.com">
+            </div>
+            <div>
+                <label for="tel">Téléphone :</label>
+                <input type="tel" name="tel" id="tel" placeholder="06 07 08 09 10">
+            </div>
+            <fieldset>
+                <legend>Situation :</legend>
+                <input type="radio" id="demandeurEmploi" name="situation" value="demandeurEmploi">
+                <label for="demandeurEmploi">Demandeur d'emploi</label>
+                <input type="radio" id="transitionPro" name="situation" value="transitionPro">
+                <label for="transitionPro">Salarié en transition Pro</label>
+                <input type="radio" id="autre" name="situation" value="autre">
+                <label for="autre">Autre</label>
+            </fieldset>
+
+            <fieldset>
+                <legend class="legend2">Votre modalité préférée :</legend>
+                <input type="radio" id="presentiel" name="prefer" value="FormationEnPresentiel">
+                <label for="presentiel">Formation en présentiel</label>
+                <input type="radio" id="distance" name="prefer" value="100ADistance">
+                <label for="distance">100 % à distance</label>
+                <input type="radio" id="alternance" name="prefer" value="Alternance">
+                <label for="alternance">Alternance</label>
+                <input type="radio" id="noPrefer" name="prefer" value="PasDePreference">
+                <label for="noPrefer">Pas de préférence</label>
+            </fieldset>
+            <div>
+                <label for="region">Région d'origine :</label>
+                <select name="region" id="region">
+                    <option value="select">-- Sélectionner --</option>
+                    <option value="AuvergneRhoneAlpes">Auvergne-Rhône-Alpes</option>
+                    <option value="BourgogneFrancheComte">Bourgogne-Franche-Comté</option>
+                    <option value="Bretagne">Bretagne</option>
+                    <option value="CentreValDeLoire">Centre-Val de Loire</option>
+                    <option value="Corse">Corse</option>
+                    <option value="GrandEst">Grand Est</option>
+                    <option value="HautsDeFrance">Hauts-de-France</option>
+                    <option value="IleDeFrance">Ile de France</option>
+                    <option value="Normandie">Normandie</option>
+                    <option value="NouvelleAquitaine">Nouvelle Aquitaine</option>
+                    <option value="Occitanie">Occitanie</option>
+                    <option value="PaysDeLaLoire">Pays de la Loire</option>
+                    <option value="ProvenceAlpesCoteDAzur">Provence-Alpes-Côte d'Azur</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Votre message :</label>
+                <textarea name="message" id="message" cols="100" rows="5" placeholder="Bonjour, je suis intéressé par la formation développeur Web ..."></textarea>
+            </div>
+            <div class="send">
+                <label for="reset">Effacer le formualaire</label>
+                <input type="reset" name="reset" id="reset" value="Effacer">
+                <input type="submit" value="Envoyer">
+            </div>
+            <div>* information obligatoire</div>
+        </form>
+    </main>
+
+    <hr>
+    
+    <footer>
+        <div>
+            <a href=https://www.facebook.com/Afpa.France target="_blank"><img class="logosocial" src="img/Images/logofb.png"
+            alt="Petit logo Facebook"></a>
+            <a href=https://www.instagram.com/afpa_formation/ target="_blank"><img class="logosocial" src="img/Images/logoinsta.jpg" alt="Petit logo Instagram"></a>
+            <a href=https://twitter.com/Afpa_Formation target="_blank"><img class="logosocial" src="img/Images/logotwitter.png" alt="Petit logo Twitter"></a> 
+        </div>
+        <div>Mentions Légales</div>
+    </footer>
+</body>
+</html>
+

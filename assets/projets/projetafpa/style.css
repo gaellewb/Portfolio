@@ -1,0 +1,342 @@
+ @font-face {
+    font-family: 'Gotham';
+    src: url(/font/Gotham/Gotham-Medium.otf);
+    font-weight: 400;
+ }
+
+* {
+    font-family: Arial, Helvetica, sans-serif ;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+main {
+    display: flex;  
+    min-height: 100vh;
+}
+
+h1 {
+    margin: 30px 0 30px 160px;
+}
+
+p, .metier {
+    line-height: 25px;
+}
+
+.bold, .nav, .connectSearch a, .boutonVert, label, legend, input[type=submit] {
+    font-weight: bold;
+}
+
+button, .send input {
+    cursor: pointer;
+}
+
+.boutonVert {
+    background-color: #78be20;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.boutonVert:hover {
+    background-color: #77be208a;
+}
+
+/* ---------------------------------NAVBAR----------------------------- */
+.topbar {
+    display: flex;
+    background-color: #7A99AC;
+    padding: 0 20px;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar li, .btnConnect {
+    display: inline;
+    padding: 5px;
+    margin: 8px;
+    border-radius: 10px;
+}
+    
+.lienNav:hover, .btnConnect:hover {
+    background-color: #78be20;
+    transition: .3s;
+}
+
+.btnConnect ~ label, .send label {
+    display: none;
+    visibility: hidden;
+}
+    
+.active {
+    color: #fff;
+}
+
+.connectSearch {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;   
+}
+
+.connectSearch a, .connectSearch input {
+    margin: 5px 0;
+}
+
+input[type=search] {
+    background-image: url(img/Images/loup2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 155px ;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+
+/* -------------------------------- FOOTER -------------------------- */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+footer div, .soustitreREF {
+    display: flex;
+}
+
+.logosocial {
+    margin: 0 5px;
+}
+
+/* -----------------------------PAGE INDEX---------------------------- */
+.mainIndex {
+    display: flex;
+    flex-direction: row-reverse;
+    background-image: url(img/Images/A2-1920.jpg);
+    background-color: #4e008e;
+    background-size: cover;
+    background-position: center;
+}
+.grandArticle {
+    width: 33%;
+    margin-top: 20px;
+}
+
+.titreBlanc {
+    display: inline;
+    background-color: rgba(239, 74, 129, 0.5);
+    color: #fff;
+}
+
+article h1 {
+    font-size: 2em;
+    margin: 0;
+}
+.sectionIndex {
+    background-color: #ef4a81;
+    margin: 0 30px 30px 30px;
+    padding: 10px;
+}
+
+.chiffres, .boutonFormation, .btn {
+    text-align: center;
+}
+
+.chiffres {
+    margin: 15px;
+}
+
+.boutonFormation {
+    margin-top: 70px;
+}
+
+.titreBlanc ~ p {
+    margin-top: 15px;
+}
+
+.zoom img {
+    cursor: zoom-in;
+	transform: scale(1);
+	transition: .3s ease-in-out;
+}
+.zoom:active img {
+    -webkit-transform: scale(2.3);
+	transform: scale(2.3) translateY(20%);
+}
+
+/* --------------------------------PAGE FORMATION------------------------ */
+.mainFormation {
+    justify-content: space-evenly;
+}
+
+.formation {
+    width: 40%;
+}
+
+.bulle {
+    float: left;
+}
+
+.soustitre {
+    position: absolute;
+    margin: 20px auto auto 50px;
+}
+
+.cleared2 {
+    clear: left;
+    padding: 0 0 20px 80px;
+}
+
+.consult {
+    float: right;
+    margin-top: 50px;
+}
+
+.mainFormation p {
+    text-align: justify;
+}
+
+.boutonTemoignages {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.boutonTemoignages a {
+    margin: 50px 0;
+}
+
+/* --------------------------------PAGE TEMOIGNAGE----------------------- */
+.temoignage {
+    width: 30%;
+    margin-bottom: auto;
+}        
+
+.sectionTemoignage {
+    background-color: #78be20;
+    margin: 0 30px auto 30px;
+    padding: 10px;
+}
+
+.photo {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.cleared {
+    clear: left;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.boutonPlus {
+    display: flex;
+    align-items: center;
+}
+
+blockquote {
+    margin: -8px;
+}
+
+.cite {
+    font-size: 2rem;
+    color: #4e008e;
+}
+
+/* --------------------------------PAGE REFERENCES----------------------- */
+.soustitreREF h2{
+    margin: 17px 100px 0 -170px;
+}
+
+.bulle2 {
+    float: left;
+    margin: 0 130px;
+}
+
+.mainRef {
+    margin-top: 30px;
+}
+
+.logosRef {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(img/Images/A3-1920.jpg);
+    background-color: #4e008e;
+    background-position: center;
+    justify-content: center;
+    margin: 0 200px auto 200px;
+}
+
+.imgRef {
+    margin: 40px;
+}
+
+/* --------------------------------PAGE CONTACT-------------------------- */
+form {
+    background-color: #78be20;
+    margin: 30px auto auto auto;
+    padding: 30px;
+}
+
+label {
+    display: inline-block;
+    text-align: end;
+    width: 200px;
+    margin: 10px 10px;
+}
+
+input[type=tel], select {
+    margin-bottom: 30px;
+}
+
+input[type=radio] ~ label {
+    text-align: left;
+    width: 180px;
+    background-color: #fff;
+    margin-left: 0;
+    padding-left: 3px;
+    font-weight: 400;
+    border-radius: 1px;
+}
+
+fieldset {
+    border: 0;
+}
+
+legend {
+    float: left;
+    margin: 9px 14px 10px 133px;
+}
+
+.legend2 {
+    margin: 9px 14px 10px 23px
+}
+
+textarea {
+    resize: none;
+    vertical-align: text-top;
+}
+
+.send {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.send input {
+    margin: 0 30px;
+}
+
+input[type=submit], input[type=reset] {
+    width: 150px;
+    padding: 10px;
+}
+
+input[type=submit] {
+    font-size: 1rem;
+}
+
