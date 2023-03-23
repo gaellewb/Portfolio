@@ -2,6 +2,18 @@ h1, .monlogo {
     font-family: 'Courgette', cursive;
 }
 
+.navbar {
+    height: 68px;
+}
+
+.completeName {
+    position: fixed;
+    /* top: 9px;
+    left: 184px; */
+    display: none;
+    margin-top: -21px;
+}
+
 .mybackground {
     background-color: rgb(182, 170, 187);
 }
