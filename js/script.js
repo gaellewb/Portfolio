@@ -18,7 +18,7 @@ window.addEventListener('scroll', showName)
         hauteur = document.documentElement.scrollTop;
         console.log(hauteur, 'nombre de pixels depuis le haut de la page');   
 
-        if (hauteur >= 950) {
+        if (hauteur >= 900) {
             // console.log('affichage de mon nom');
             completeName.style.display = 'flex';
             initiales.style.display = 'none';
@@ -29,7 +29,7 @@ window.addEventListener('scroll', showName)
 window.addEventListener('scroll', maskName)
     function maskName () {
         // console.log(hauteur, 'deuxième heuteur');
-        if (hauteur < 950) {
+        if (hauteur < 900) {
             completeName.style.display = 'none';
             initiales.style.display = 'flex';
         };
