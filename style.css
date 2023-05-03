@@ -34,6 +34,10 @@ h1, .monlogo {
     color: rgb(152, 101, 174);
 }
 
+.borderHobby {
+    border-right: solid thin rgb(182, 170, 187);
+}
+
 .dropdown-toggle:hover {
     border-left-color: #0d6efd;
     border-right-color: #0d6efd;
@@ -51,9 +55,13 @@ textarea {
     text-decoration: none;
     color: #000;
 }
-
+.logoSocial {
+    color: rgb(71, 136, 211);
+    transition: 0.3s;
+}
 .logoSocial:hover {
-    background-color: rgb(152, 101, 174);
+    color: rgb(152, 101, 174);
+    transition: 0.3s;
 }
 
 @media screen and (max-width:768px) {
@@ -65,28 +73,19 @@ textarea {
     }
 }
 
+@media screen and (max-width:992px) {
+    .borderHobby {
+        border-right: none;
+    }
+}
+
+
 /* Pour la SLIDEBAR qui ne fonctionne pas encore
 @media screen and (min-width:768px) {
     .social, .separationSocial {
         display: none;
         }
 } */
-
-/* @media screen and(max-width:992px) {
-    .separation {
-        visibility: hidden;
-    }
-} */
-
-/* @media screen and (max-width:992px) {
-    .border-end{
-        border-right: none;
-    } */
-    
-    /* .border-end {
-        border: none;
-    } */
-
 /* .navSocial {
     position:absolutefixed-bottom
 } */
