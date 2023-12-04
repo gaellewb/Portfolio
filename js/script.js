@@ -3,7 +3,6 @@ console.log('connecté !');
 // Changement de mes initiales en mon nom :
 
 // je sélectionne et je stocke :
-const myName = document.querySelector('.myName');
 const completeName = document.querySelector('.completeName');
 const initiales = document.querySelector('.initiales');
 // je déclare une variable que j'utiliserai dans deux fonctions :
@@ -25,7 +24,7 @@ window.addEventListener('scroll', showName)
         };
     };
 
-// Si je reonte vers le haut aec le scroll, j'enlève les changements :
+// Si je remonte vers le haut avec le scroll, j'enlève les changements :
 window.addEventListener('scroll', maskName)
     function maskName () {
         // console.log(hauteur, 'deuxième heuteur');
