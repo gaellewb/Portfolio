@@ -6,6 +6,10 @@ h1, .monlogo {
     min-height: 68px;
 }
 
+/* .nav-item:hover {
+    font-size : 110% ;
+} */
+
 .completeName {
     position: fixed;
     /* top: 9px;
